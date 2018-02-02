@@ -1,0 +1,9 @@
+<resources>
+
+	<!-- Commun -->
+	<string name="app_name">Animations</string>
+
+	<!-- Main -->
+	<string name="main_libelle_bouton">Lancer le jeu</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Main -->
+	<dimen name="main_padding_bouton">24dp</dimen>
+	<dimen name="main_taille_libelle_bouton">18sp</dimen>
+	<dimen name="main_translation_bouton">-160dp</dimen>
+
+	<!-- Jeu -->
+	<dimen name="jeu_marge_element">4dp</dimen>
+	<dimen name="jeu_cote_pierre">48dp</dimen>
+	<dimen name="jeu_bord_pierre">4dp</dimen>
+	<dimen name="jeu_cote_maison">96dp</dimen>
+	<dimen name="jeu_bord_maison">16dp</dimen>
+
+</resources>

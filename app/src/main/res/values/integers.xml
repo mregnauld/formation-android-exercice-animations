@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Commun -->
+	<integer name="commun_duree_transition">500</integer>
+
+	<!-- Main -->
+	<integer name="main_duree_animation">1200</integer>
+
+	<!-- Jeu -->
+	<integer name="jeu_duree_animation">4000</integer>
+	<integer name="jeu_facteur_acceleration">4</integer>
+
+</resources>

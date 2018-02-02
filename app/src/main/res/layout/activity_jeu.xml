@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	android:id="@+id/main"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/couleurJeuFond"
+	tools:context="com.formationandroid.animations.JeuActivity">
+
+	<ImageView
+		android:id="@+id/maison"
+		android:layout_width="@dimen/jeu_cote_maison"
+		android:layout_height="@dimen/jeu_cote_maison"
+		android:layout_marginTop="@dimen/jeu_marge_element"
+		android:background="@drawable/jeu_fond_maison"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+
+	<ImageView
+		android:id="@+id/pierre"
+		android:layout_width="@dimen/jeu_cote_pierre"
+		android:layout_height="@dimen/jeu_cote_pierre"
+		android:layout_marginBottom="@dimen/jeu_marge_element"
+		android:background="@drawable/jeu_fond_pierre"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
