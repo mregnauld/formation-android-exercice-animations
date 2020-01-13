@@ -2,17 +2,14 @@ package com.formationandroid.animations;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.BounceInterpolator;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity
 {
-	
-	// Vues :
-	private Button buttonJeu = null;
-	
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -22,7 +19,7 @@ public class MainActivity extends AppCompatActivity
 		setContentView(R.layout.activity_main);
 		
 		// vues :
-		buttonJeu = findViewById(R.id.bouton_jeu);
+		Button buttonJeu = findViewById(R.id.bouton_jeu);
 		
 		// animation initiale :
 		buttonJeu.animate()
